@@ -1,4 +1,4 @@
-package JavaCore.Lang;
+package JavaCore.Lang.Thread;
 /**
  * Thread - создание дополнительного потока(main тоже поток)
  * все созданные потоки не синхронизированы

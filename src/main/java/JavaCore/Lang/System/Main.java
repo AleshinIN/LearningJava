@@ -1,6 +1,4 @@
-package JavaCore.System;
-
-import java.util.Collection;
+package JavaCore.Lang.System;
 
 public class Main {
     public static void main(String[] args) {

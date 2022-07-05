@@ -1,4 +1,4 @@
-package JavaCore.Lang;
+package JavaCore.Lang.Thread;
 
 public class MyThread extends Thread {
     private static int id;
