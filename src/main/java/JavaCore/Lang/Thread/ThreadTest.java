@@ -10,5 +10,19 @@ public class ThreadTest {
 
         MyThread thread2 = new MyThread();
         thread2.start();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        thread1.shutdown();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        thread2.shutdown();
     }
 }
